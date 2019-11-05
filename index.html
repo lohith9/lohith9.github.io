@@ -351,5 +351,11 @@ s0.parentNode.insertBefore(s1,s0);
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
+
+
+<!-- GeoLocation of client-->
+$.getJSON('https://ipapi.co/json/', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
 	</body>
 </html>
